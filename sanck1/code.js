@@ -20,7 +20,7 @@ function reverseword(uservalue)
     arrayrevers.push(uservalue);
     // usco questo coamndo per splittare carattere per carattere
     arrayrevers= uservalue.split("");
-    // comando usato per invertire
+    // comando usato per invertire e inserire stringa invertita
     arrayrevers.reverse().join("");
 
     return arrayrevers;
