@@ -41,7 +41,7 @@ function tagliarray(a,b,array=[])
     }
     
 
-    parte_di_array= array.slice(a,b);
+    parte_di_array= array.slice(a,b +1);
     
     console.log(parte_di_array)
     return parte_di_array;
